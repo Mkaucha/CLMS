@@ -1,0 +1,107 @@
+﻿{
+  "Events": [
+    {
+      "Id": "115e00bd-0420-49ca-abe2-b61b3dbe7991",
+      "Name": "Orientation Week Opening",
+      "DateTime": "2026-05-27T09:00:00+10:00",
+      "Location": "Main Auditorium",
+      "Description": "Welcome ceremony for all new students.",
+      "Category": "Academic",
+      "IsToday": false,
+      "IsUpcoming": true
+    },
+    {
+      "Id": "fd736d17-c358-4c22-b172-e7cf7520c7b5",
+      "Name": "Tech Hackathon 2026",
+      "DateTime": "2026-05-29T10:00:00+10:00",
+      "Location": "IT Building, Lab 3",
+      "Description": "24-hour coding competition. Teams of up to 4.",
+      "Category": "Technology",
+      "IsToday": false,
+      "IsUpcoming": true
+    },
+    {
+      "Id": "dcf99af3-c80a-448f-88c4-fa07b15c52bd",
+      "Name": "Art Exhibition Opening",
+      "DateTime": "2026-05-31T14:00:00+10:00",
+      "Location": "Gallery Wing B",
+      "Description": "Student art showcase – semester highlights.",
+      "Category": "Arts",
+      "IsToday": false,
+      "IsUpcoming": true
+    },
+    {
+      "Id": "760cbadb-c8e0-4590-9635-2bedb48c8b45",
+      "Name": "Career Fair",
+      "DateTime": "2026-06-02T09:00:00+10:00",
+      "Location": "Sports Hall",
+      "Description": "Meet 50+ employers. Bring your résumé.",
+      "Category": "Career",
+      "IsToday": false,
+      "IsUpcoming": true
+    }
+  ],
+  "Clubs": [
+    {
+      "Id": "08efbcf7-862b-4b04-8e1e-53a75b0fe608",
+      "Name": "Coding Society",
+      "Category": "Technology",
+      "MeetingSchedule": "Every Wednesday 5:00 PM – Room CS-204",
+      "Description": "Weekly coding challenges and project collaboration.",
+      "IsJoined": true
+    },
+    {
+      "Id": "0f069998-2737-425a-80c3-73a957d3b717",
+      "Name": "Photography Club",
+      "Category": "Arts",
+      "MeetingSchedule": "Every Friday 4:00 PM – Media Centre",
+      "Description": "Learn photography techniques and go on shoots.",
+      "IsJoined": false
+    },
+    {
+      "Id": "395c7080-9c4d-47b3-8e39-f214b2f10183",
+      "Name": "Debate Society",
+      "Category": "Academic",
+      "MeetingSchedule": "Every Tuesday 6:00 PM – Seminar Room 1",
+      "Description": "Competitive debating and public speaking skills.",
+      "IsJoined": false
+    },
+    {
+      "Id": "8ce78b5d-bbc1-4269-b3c9-9abf4eaa9b4c",
+      "Name": "Environmental Club",
+      "Category": "Community",
+      "MeetingSchedule": "Every Thursday 5:30 PM – Green Campus Hub",
+      "Description": "Sustainability initiatives and campus clean-ups.",
+      "IsJoined": true
+    }
+  ],
+  "ScheduleEntries": [
+    {
+      "Id": "fd43b63c-b498-4d37-9404-5be0deeac81f",
+      "Title": "Advanced Programming Lecture",
+      "StartTime": "2026-05-26T09:00:00+10:00",
+      "EndTime": "2026-05-26T11:00:00+10:00",
+      "Location": "Lecture Theatre 2",
+      "Notes": "Bring laptop and assessment notes.",
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Id": "06d30e80-fac1-40e3-90ea-617b32b0961e",
+      "Title": "Database Systems Tutorial",
+      "StartTime": "2026-05-26T13:00:00+10:00",
+      "EndTime": "2026-05-26T14:00:00+10:00",
+      "Location": "Lab B-112",
+      "Notes": "Complete pre-work exercises beforehand.",
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Id": "f9b6119b-f2d1-40ac-b83f-bf30a98b98a9",
+      "Title": "Study Group – MIT 211",
+      "StartTime": "2026-05-27T15:00:00+10:00",
+      "EndTime": "2026-05-27T17:00:00+10:00",
+      "Location": "Library Level 2",
+      "Notes": "Review assessment 2 requirements.",
+      "DayOfWeek": "Tuesday"
+    }
+  ]
+}

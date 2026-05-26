@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>CampusLife</AssemblyName>
+    <RootNamespace>CampusLife</RootNamespace>
+
+    <!--
+      Link the application manifest so the Windows Forms Designer
+      host opens in DPI-Unaware mode (96 DPI).
+      This stops controls from appearing blurry or mis-sized on
+      high-DPI / scaled displays inside Visual Studio.
+    -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+
+    <!--
+      Opt out of the SDK's automatic high-DPI manifest injection.
+      We manage DPI awareness entirely through app.manifest above.
+    -->
+    <ApplicationHighDpi>false</ApplicationHighDpi>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

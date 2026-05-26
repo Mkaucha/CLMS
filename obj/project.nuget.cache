@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VJ/1N4N2G1E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\magar\\OneDrive\\Desktop\\test2\\CampusLife\\CampusLife.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\magar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
